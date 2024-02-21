@@ -1,0 +1,61 @@
+.Services-section{
+    padding: 4rem 0rem;
+    background-color: rgb(255, 250, 241);
+}
+
+.Services-section .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service-text h1{
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.services{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.service{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 30%;
+    border: none;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.service .image{
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.service h2{
+    margin-bottom: 2rem;
+}
+
+.service p{
+    text-align: center;
+}
+
+.service .btn{
+    width: 14rem;
+}

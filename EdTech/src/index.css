@@ -19,10 +19,10 @@
   font-weight: 700;
   color: white;
   align-items: center;
+  justify-content: center;
   background-color: rgb(70, 70, 202);
   border-radius: 10px;
   box-shadow: 0 10px 15px 0 rgba(70, 70, 200, .35);
-  padding: 1rem 3rem;
   transition: all .3s;
   cursor: pointer;
 }
@@ -32,6 +32,21 @@
   box-shadow: 0 10px 15px 0 rgba(70, 70, 210, .50);
 }
 
+p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: gray;
+  margin-bottom: 2rem;
+}
+
+h1{
+  font-size: 3.3rem;
+  font-weight: 800;
+  color: #010103;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
 
 
