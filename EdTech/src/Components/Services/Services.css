@@ -1,6 +1,5 @@
 .Services-section{
     padding: 4rem 0rem;
-    background-color: rgb(255, 250, 241);
 }
 
 .Services-section .container{
@@ -22,7 +21,8 @@
 .services{
     display: flex;
     width: 100%;
-    gap: 2rem;
+    gap: 4rem;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -36,6 +36,7 @@
     padding: 2rem 1rem;
     align-items: center;
     text-align: center;
+    box-shadow: 0 10px 15px 0 rgba(192, 190, 190, 0.75);
 }
 
 .service .image{
@@ -54,6 +55,7 @@
 
 .service p{
     text-align: center;
+    height: 6.25rem;
 }
 
 .service .btn{

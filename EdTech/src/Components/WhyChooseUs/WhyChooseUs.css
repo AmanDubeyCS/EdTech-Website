@@ -5,15 +5,15 @@
 
 .main{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
+    justify-content: space-between;
 }
 
 .why-choose{
-    width: 33%;
+    width: 30%;
     border-radius: 3rem;
     padding: 2rem 2rem;
-    margin-right: 3rem;
     background-color: rgb(242, 242, 242);
 }
 
@@ -39,7 +39,7 @@
     background-color: white;
     box-shadow: 0 10px 15px 0 rgba(237, 234, 234, 0.75);
     align-items: center;
-    width: 70%;
+    width: 65%;
     display: flex;
     gap: 8rem;
 }
@@ -66,6 +66,8 @@
 
 .sec-1, .sec-2{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -101,4 +103,21 @@
 .certificate-logo{
     background-color: rgb(203, 203, 65);
     box-shadow: 0 10px 15px 0 rgba(203, 203, 65, .35);
+}
+
+@media (max-width: 800px){
+    .why-choose-program .text{
+        width: 100%;
+    }
+    .why-choose-program .main-logo{
+        display: none;
+    }
+    .why-choose{
+        width: 46%;
+        margin-right: 0;
+    }
+    .why-choose-program{
+        width: 100%;
+        gap: 0;
+    }
 }

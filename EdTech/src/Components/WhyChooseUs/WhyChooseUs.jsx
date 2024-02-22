@@ -12,8 +12,8 @@ const WhyChooseUs = () => {
         <div className="why-choose-us">
         <div className="container">
           <div className="main">
-          <div className="sec-1">
-            <div className="why-choose why-choose-program">
+          {/* <div className="sec-1"> */}
+            <div className="why-choose-program why-choose">
               <div className="text">
                 <h1>Why you Choose <br />Our Program</h1>
                 <p>
@@ -36,8 +36,8 @@ const WhyChooseUs = () => {
                 odit corporis repudiandae
               </p>
             </div>
-          </div>
-          <div className="sec-2">
+          {/* </div> */}
+          {/* <div className="sec-2"> */}
             <div className="why-choose access">
               <div className="logo-img access-logo">
                 <img src={accessicon} alt="" />
@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
           </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   )
 }
