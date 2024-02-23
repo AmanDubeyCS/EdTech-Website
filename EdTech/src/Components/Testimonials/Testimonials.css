@@ -19,7 +19,7 @@
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
-    max-width: 50%;
+    width: 50%;
 }
 
 .testimonials-content-title h2{
@@ -36,6 +36,9 @@
 }
 
 .all-testimonials-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
     box-shadow: 0 20px 40px 0 rgb(0 0 0 / 8%);
     width: 50%;
@@ -88,4 +91,39 @@
 
 .all-testimonials-box-profile p{
     font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+    .testimonials-content-title{
+        width: 100%;
+    }
+    .all-testimonials-box{
+        width: 100%;
+        padding: 1.3rem;
+    }
+    .all-testimonials{
+        flex-wrap: wrap;
+    }
+
+    .testimonials-content-title h2{
+        font-size: 2.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 360px){
+    .all-testimonials-box p{
+        font-size: 1rem;
+    }
+    .all-testimonials-box-name-profile span h4{
+        font-size: 1rem;
+    }
 }

@@ -61,7 +61,7 @@ const Services = () => {
                     </div>
                     <h2>{service.name}</h2>
                     <p>{service.Description}</p>
-                    <div className="btn">READ MORE</div>
+                    {/* <div className="btn">READ MORE</div> */}
               </div>
             );
           })}

@@ -12,7 +12,7 @@
 
 .why-choose{
     width: 30%;
-    border-radius: 3rem;
+    border-radius: 2rem;
     padding: 2rem 2rem;
     background-color: rgb(242, 242, 242);
 }
@@ -23,12 +23,12 @@
     margin-bottom: 1rem;
 } 
 
-.why-choose p{
+/* .why-choose p{
     font-size: 1rem;
     line-height: 1.5rem;
     color: gray;
     font-size: 1.2rem;
-}
+} */
 
 .why-choose:hover{
     background-color: white;
@@ -51,6 +51,7 @@
 .why-choose-program .text h1{
     font-size: 3rem;
     margin-bottom: 1rem;
+    margin-top: 0;
 }
 
 .why-choose-program .text p{
@@ -106,6 +107,23 @@
 }
 
 @media (max-width: 800px){
+    .logo-img{
+        width: 3rem;
+        height: 3rem;
+        padding: 0.4rem;
+        margin-bottom: 0;
+    }
+    .why-choose-program .text p{
+        display: flex;
+    }
+    .why-choose p{
+        display: none;
+    }
+    .why-choose h4{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
     .why-choose-program .text{
         width: 100%;
     }
@@ -113,11 +131,32 @@
         display: none;
     }
     .why-choose{
-        width: 46%;
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        padding: 1.5rem 1.5rem;
+        align-items: center;
+        justify-content: left;
+        align-items: center;
         margin-right: 0;
     }
     .why-choose-program{
         width: 100%;
         gap: 0;
     }
+}
+
+
+@media screen and (max-width: 576px){
+    .why-choose-program .text h1{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 360px){
+    
 }

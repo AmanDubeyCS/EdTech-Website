@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
           {/* <div className="sec-1"> */}
             <div className="why-choose-program why-choose">
               <div className="text">
-                <h1>Why you Choose <br />Our Program</h1>
+                <h1>Why you Choose <br />Our Service</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Soluta consequatur possimus

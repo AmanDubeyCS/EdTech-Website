@@ -104,3 +104,29 @@
     display: flex;
    }
 }
+
+@media screen and (max-width: 800px){
+    .navbar{
+        padding: 1rem 0;
+    }
+    .navbar-logo{
+        width: 5rem;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 576px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 360px){
+    
+}
