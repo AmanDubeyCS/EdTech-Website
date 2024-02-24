@@ -51,6 +51,10 @@ footer{
     margin-bottom: 1rem;
 }
 
+.footer-contaent-1 li img{
+    width: 14.5rem;
+}
+
 .footer-content-2{
     list-style: none;
 }
@@ -63,21 +67,14 @@ footer{
 }
 
 li a:hover{
-    color: orange;
+    color: rgb(70, 70, 202);
 }
 
 @media screen and (max-width: 800px) {
-
-}
-
-@media screen and (max-width: 576px){
-
-}
-
-@media screen and (max-width: 480px){
-
-}
-
-@media screen and (max-width: 360px){
-    
+    .footer-content{
+        flex-wrap: wrap;
+    }
+    .footer-contaent-1{
+        width: 100%;
+    }
 }

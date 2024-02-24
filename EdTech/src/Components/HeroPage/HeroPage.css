@@ -1,0 +1,16 @@
+.hero-pages{
+    padding: 8rem 0;
+    margin-bottom: 2rem;
+    background-color: rgb(245, 227, 195);
+}
+
+.hero-page-text h3{
+    font-size: 2.5rem;
+}
+
+.hero-page-text p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 1rem;
+}

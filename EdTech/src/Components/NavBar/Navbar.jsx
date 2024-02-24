@@ -1,7 +1,9 @@
-import React  from "react";
+import React from "react";
 import "./Navbar.css";
-import menuIcon from "../Assets/hamburger.svg"
+import menuIcon from "../Assets/hamburger.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import Logo from "../Assets/logo2.png"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,42 +17,88 @@ const Navbar = () => {
       {/* mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
         <div onClick={openNav} className="mobile-navbar-close">
-          <img src={menuIcon} alt="" width={30} height={30}/>
+          <img src={menuIcon} alt="Menu-Icon" width={30} height={30} />
         </div>
         <ul className="mobile-navbar-links">
-          <li onClick={openNav}><a href="">Home</a></li>
-          <li onClick={openNav}><a href="">About Us</a></li>
-          <li onClick={openNav}><a href="">Services</a></li>
-          <li onClick={openNav}><a href="">Internships</a></li>
-          <li onClick={openNav}><a href="">Contact</a></li>
+          <li>
+            <Link onClick={openNav} to="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link onClick={openNav} to="/about">
+              About
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link onClick={openNav} to="/services">
+              Services
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link onClick={openNav} to="/career">
+              Careers
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link onClick={openNav} to="/contact">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
 
       {/* desktop */}
       <div className="navbar">
+        <Link to="/">
         <div className="navbar-logo">
           <img
-            src="https://car-rental-ten.vercel.app/static/media/logo.0ad964cb93ab30cc809d.png"
-            alt=""
+            src={Logo}
+            alt="Logo"
           />
         </div>
+        </Link>
 
         <ul className="navbar-links">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Internships</li>
-          <li>Contact Us</li>
+          <li>
+            <Link className="home-link" to="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="about-link" to="/about">
+              About
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="models-link" to="/services">
+              Services
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="testi-link" to="/careers">
+              Careers
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="contact-link" to="/contact">
+              Contact
+            </Link>
+          </li>
         </ul>
         <div className="mobile-hamb" onClick={openNav}>
-        <img src={menuIcon} alt="" width={40} height={40}/>   
+          <img src={menuIcon} alt="MenuIcon" width={40} height={40} />
+        </div>
       </div>
-      </div>
-
-      
     </nav>
-
-    
   );
 };
 

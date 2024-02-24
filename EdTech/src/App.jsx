@@ -1,23 +1,24 @@
 import Navbar from "./Components/NavBar/Navbar"
-import Hero from "./Components/Hero/Hero"
-import AboutUs from "./Components/AboutUs/AboutUs"
-import WhyChooseUs from "./Components/WhyChooseUs/WhyChooseUs"
-import Services from "./Components/Services/Services"
-import Testimonials from "./Components/Testimonials/Testimonials"
-import ContactUs from "./Components/Contact/ContactUs"
 import Footer from "./Components/Footer/Footer"
+import AboutUsPage from "./Pages/AboutUsPage"
+import ServicesPage from "./Pages/ServicesPage"
+import ContactPage from "./Pages/ContactPage"
+import Careers from "./Pages/Careers"
+import Home from "./Pages/Home"
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <WhyChooseUs />
-      <AboutUs />
-      <Services />
-      <Testimonials />
-      <ContactUs />
-      {/* <Footer /> */}
+      <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route path="about" element={<AboutUsPage />} />
+        <Route path="services" element={<ServicesPage />} />
+        <Route path="careers" element={<Careers />} />
+        <Route path="contact" element={<ContactPage />} />
+      </Routes>
+      <Footer />
     </>
   )
 }

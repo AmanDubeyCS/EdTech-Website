@@ -2,6 +2,7 @@
     width: 100%;
     padding: 2rem 0rem;
     background-color: #f8f8f8;
+    padding: 4rem 0;
 }
 
 .aboutus-image{
@@ -19,21 +20,9 @@
 }
 
 .aboutus-text h1{
-    padding-top: 2.5rem;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #010103;
-    line-height: 1.2;
-    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
-.aboutus-text p{
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: gray;
-    margin-bottom: 2rem;
-}
 
 @media screen and (max-width: 800px) {
     .aboutus-image{
@@ -42,16 +31,4 @@
     .aboutus-text{
         width: 100%;
     }
-}
-
-@media screen and (max-width: 576px){
-
-}
-
-@media screen and (max-width: 480px){
-
-}
-
-@media screen and (max-width: 360px){
-    
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Heroimg from "../Assets/HeroPrimary.png";
-
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -13,21 +13,20 @@ const Hero = () => {
               Welcome To <span>Vexacore</span>!
             </h4>
             <h1>
-              Empowering Students Through <span>Education</span> and{" "}
-              <span>Experience</span>
+              Empowering Your <span>Digital Journey</span> with Innovative{" "}
+              <span>IT Solutions</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint
-              deleniti, sit recusandae incidunt voluptatibus voluptate fugit
-              possimus
+              We offer a diverse range of premier IT services designed to propel
+              your business to new heights of success.
             </p>
           </div>
-          <div className="hero-content-btn btn">
-            INTERNSHIPS
-          </div>
+          <Link to="/services">
+            <div className="hero-content-btn btn">SERVICES</div>
+          </Link>
         </div>
         <div className="hero-image">
-          <img src={Heroimg} alt="" />
+          <img src={Heroimg} alt="Primary-image" />
         </div>
       </div>
     </section>

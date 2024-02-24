@@ -1,5 +1,6 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
+import Logo from "../Assets/logo2.png";
 
 const Footer = () => {
   return (
@@ -7,9 +8,12 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <ul className="footer-contaent-1">
-            <li>VEXACORE</li>
             <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,accusamus unde deleniti dolorum minima doloribus
+              <img src={Logo} alt="Logo" />
+            </li>
+            <li>
+              We offer a diverse range of premier IT services designed to propel
+              your business to new heights of success.
             </li>
             <li>
               <a href="tel:123456789">(123) -456-789</a>
@@ -27,16 +31,16 @@ const Footer = () => {
           <ul className="footer-content-2">
             <li>IMPORTANT LINKS</li>
             <li>
-                <a href="/">Services</a>
+              <a href="/">Services</a>
             </li>
             <li>
-                <a href="/">Internships</a>
+              <a href="/">Internships</a>
             </li>
             <li>
-                <a href="/">About Us</a>
+              <a href="/">About Us</a>
             </li>
             <li>
-                <a href="/">Contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
 

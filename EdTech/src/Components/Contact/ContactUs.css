@@ -1,10 +1,13 @@
+.contact-page{
+  padding: 4rem 0;
+}
+
 .contact-div{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin: 0 auto;
   color: black;
-  padding: 5rem 2rem;
   background-size: auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -34,7 +37,7 @@
 }
 
 .contact-div-text a:hover{
-  color: orange;
+  color: rgb(70, 70, 202);
 }
 
 .contact-div-form{
@@ -89,7 +92,6 @@
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    padding: 5rem 0rem;
   }
 
   .contact-div-text{
@@ -101,16 +103,4 @@
   .contact-div-form form input{
     font-size: 1rem;
   }
-}
-
-@media screen and (max-width: 576px){
-
-}
-
-@media screen and (max-width: 480px){
-
-}
-
-@media screen and (max-width: 360px){
-    
 }

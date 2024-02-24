@@ -1,0 +1,12 @@
+.career-section{
+    padding: 5rem 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1{
+    margin-bottom: 1rem;
+}

@@ -56,12 +56,12 @@ const Services = () => {
           {services.map((service) => {
             return (
               <div className="service" key={service.name}>
-                    <div className="image">
-                    <img src={service.logo} alt="" />
-                    </div>
-                    <h2>{service.name}</h2>
-                    <p>{service.Description}</p>
-                    {/* <div className="btn">READ MORE</div> */}
+                <div className="image">
+                  <img src={service.logo} alt="service-Image" />
+                </div>
+                <h2>{service.name}</h2>
+                <p>{service.Description}</p>
+                {/* <div className="btn">READ MORE</div> */}
               </div>
             );
           })}

@@ -22,8 +22,7 @@
     width: 50%;
 }
 
-.testimonials-content-title h2{
-    font-size: 4.2rem;
+.testimonials-content-title h1{
     margin-bottom: 1.4rem;
 }
 
@@ -93,6 +92,14 @@
     font-weight: 400;
 }
 
+@media screen and (max-width: 1024px) {
+    .testimonials-content-title{
+        width: 80%;
+    }
+    .all-testimonials{
+        padding: 0;
+    }
+}
 @media screen and (max-width: 800px) {
     .testimonials-content-title{
         width: 100%;
@@ -109,14 +116,6 @@
         font-size: 2.5rem;
     }
     
-}
-
-@media screen and (max-width: 576px){
-
-}
-
-@media screen and (max-width: 480px){
-
 }
 
 @media screen and (max-width: 360px){
