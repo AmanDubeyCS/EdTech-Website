@@ -10,31 +10,31 @@ import S5 from "../Assets/S5.svg";
 const Services = () => {
   const services = [
     {
-      logo: S1,
+      logo: S3,
       name: "WEB DEVELOPMENT",
       Description:
         "Our web development services focus on crafting robust and responsive websites, tailored to your specific requirements, enhancing your online presence and engagement.",
     },
     {
-      logo: S2,
+      logo: S5,
       name: "UI/UX DESIGN",
       Description:
         "Our UI/UX design expertise focuses on creating visually appealing and user-friendly interfaces, enhancing the overall user experience and engagement on your digital platforms.",
     },
     {
-      logo: S3,
+      logo: S4,
       name: "MOBILE APP DEVELOPMENT",
       Description:
         "We specialize in mobile app development, creating custom solutions tailored to your business needs, ensuring a strong presence in the mobile ecosystem.",
     },
     {
-      logo: S4,
+      logo: S1,
       name: "WEB DESIGN",
       Description:
         "Our web design expertise ensures visually appealing and user-friendly website designs, optimizing user experience and leaving a lasting impression on your audience.",
     },
     {
-      logo: S5,
+      logo: S2,
       name: "CYBERSECURITY",
       Description:
         "We prioritize your digital security, providing comprehensive cybersecurity solutions to protect your systems and data from threats and vulnerabilities.",

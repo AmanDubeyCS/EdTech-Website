@@ -39,7 +39,7 @@ const Navbar = () => {
           </li>
           <li>
             {" "}
-            <Link onClick={openNav} to="/career">
+            <Link onClick={openNav} to="/careers">
               Careers
             </Link>
           </li>
