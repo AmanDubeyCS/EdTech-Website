@@ -92,6 +92,7 @@
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
+    width: inherit;
   }
 
   .contact-div-text{
