@@ -89,10 +89,11 @@
 
 @media screen and (max-width: 800px) {
   .contact-div{
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: inherit;
+    width: 100%;
   }
 
   .contact-div-text{
@@ -100,6 +101,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .contact-div-form {
+    width: 100%;
   }
   .contact-div-form form input{
     font-size: 1rem;
