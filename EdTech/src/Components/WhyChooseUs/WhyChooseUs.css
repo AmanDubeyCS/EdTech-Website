@@ -14,7 +14,8 @@
     width: 30%;
     border-radius: 2rem;
     padding: 2rem 2rem;
-    background-color: rgb(242, 242, 242);
+    /* background-color: rgb(242, 242, 242); */
+    background-color: #f0f0f0;
 }
 
 .why-choose h4{
