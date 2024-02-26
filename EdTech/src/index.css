@@ -22,12 +22,16 @@
   color: white;
   align-items: center;
   justify-content: center;
-  /* background-color: #ff4d30; */
-  background-color: rgb(70, 70, 202);
+  background-color: #448EE4;
+  /* background-color: rgb(70, 70, 202); */
   border-radius: 10px;
   box-shadow: 0 10px 15px 0 rgba(70, 70, 200, .35);
   transition: all .3s;
   cursor: pointer;
+}
+
+a{
+  text-decoration: none;
 }
 
 .btn:hover{

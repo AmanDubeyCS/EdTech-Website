@@ -1,5 +1,5 @@
 nav{
-    background-color: #f0f0f0;
+    background-color: #efefef;
 }
 .navbar{
     max-width: 1300px;
@@ -13,7 +13,7 @@ nav{
     background-color: transparent;
     z-index: 99;
     margin: 0 auto;
-    background-color: #f0f0f0;
+    background-color: transparent;
 }
 
 .navbar-logo{

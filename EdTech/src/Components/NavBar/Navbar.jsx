@@ -3,7 +3,7 @@ import "./Navbar.css";
 import menuIcon from "../Assets/hamburger.svg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../Assets/logo2.png"
+import Logo from "../Assets/logo3.png"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

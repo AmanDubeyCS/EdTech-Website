@@ -34,7 +34,8 @@
 
 .hero-content-text h1 span,
 .hero-content-text h4 span{
-    color: rgb(70, 70, 202);
+    color: #448EE4;
+    /* color: rgb(70, 70, 202); */
 }
 
 .hero-content-text h1{
