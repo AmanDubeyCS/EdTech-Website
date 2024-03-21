@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section id="home" className="hero-section">
-      <div className="container">
+      <div className="container hero-container">
         <div className="hero-content">
           <div className="hero-content-text">
             <h4>
